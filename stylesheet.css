@@ -1,39 +1,62 @@
-.permHeader{
+header {
     position: top fixed;
-    background-color: rgb(205, 239, 253);
+    background-color: #005f73;
+    width:100%;
+    height:34%;
     padding: 5px;
-    padding-left: 4%;
-    border-radius: 10px;
-    display: grid;
-    grid-template-rows:3;
-    column-gap: 3%;
-    justify-items: center;
-}
-
-.headerLink1{
-    padding: 10px;
-    grid-column:1/2;
-}
-
-.headerLink2{
-    padding: 10px;
-    grid-column:2/;
-}
-
-
-.nameHeader{
-    font-size: 40px;
+    margin: .5% 0 auto auto;
+    border-radius: 1em;
+    display: inline-block;
     text-align: center;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+h1 {
+    color: #ee9b00;
+    font-size: 40px;
+    border-style: solid;
+    border-color:#ee9b00;
+    text-align: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: 0.5s;
+}
+
+h1:hover{
+    border-style: none;
+    transform: scale(1.05);
 }
 
 body {
-    background-image: url(./images/background.jpg);
-    background-repeat: repeat;
-    animation: moveIt 5s linear infinite;
+    background-color: #02161f;
 }
 
-@keyframes moveIt{
-    from{ background-position: 0 100px;}
-    to{ background-position: 0 150px;}
+button {
+    background-color:#005f73;
+    color: #02161f;
+    padding: .5%;
+    border-style:solid;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-color: #005f73;
+    transition: 0.2s;
+    font-weight: bolder;
+}
+
+button:hover{
+    border-width: 2px;
+    border-color: #ee9b00;
+    background-color: #457b9d;
+    color: #ee9b00;
+    transform: scale(1.05);
+}
+
+button:active{
+    background-color: #02161f;
+}
+
+#resume {
+    position: 33%
+}
+
+#projects {
+    position: 66%
 }
