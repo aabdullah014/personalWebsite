@@ -1,0 +1,62 @@
+header {
+    position: top fixed;
+    background-color: #005f73;
+    width:100%;
+    height:34%;
+    padding: 5px;
+    margin: .5% 0 auto auto;
+    border-radius: 1em;
+    display: inline-block;
+    text-align: center;
+}
+
+h1 {
+    color: #ee9b00;
+    font-size: 40px;
+    border-style: solid;
+    border-color:#ee9b00;
+    text-align: center;
+    font-family: "Exo 2", sans-serif;
+    transition: 0.5s;
+}
+
+h1:hover{
+    border-style: none;
+    transform: scale(1.05);
+}
+
+body {
+    background-color: #02161f;
+}
+
+button {
+    background-color:#005f73;
+    color: #02161f;
+    padding: .5%;
+    border-style:solid;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-color: #005f73;
+    transition: 0.2s;
+    font-weight: bolder;
+}
+
+button:hover{
+    border-width: 2px;
+    border-color: #ee9b00;
+    background-color: #457b9d;
+    color: #ee9b00;
+    transform: scale(1.05);
+}
+
+button:active{
+    background-color: #02161f;
+}
+
+#resume {
+    position: 33%
+}
+
+#projects {
+    position: 66%
+}
